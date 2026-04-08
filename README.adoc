@@ -1,0 +1,45 @@
+= Image2PDF Pro Automator
+Rehman Ali <https://github.com/Rehmanalidevpro>
+v1.0, 2023-10-27
+:toc:
+:homepage: https://github.com/Rehmanalidevpro/Image2PDF-Pro-Automator
+
+== 📝 Description
+*Image2PDF Pro Automator* is a professional-grade CLI tool developed by *Rehman Ali*. It allows users to merge multiple images into a single, high-quality PDF document. The tool is specifically optimized for numbered sequences (1, 2, 3...) and includes an automatic page numbering feature.
+
+== ✨ Key Features
+* [x] *Natural Sorting:* Automatically handles numeric sequences correctly (e.g., 1, 2, 10 instead of 1, 10, 2).
+* [x] *Auto Page Numbering:* Injects "Page X" labels at the bottom of each PDF page.
+* [x] *Dependency Management:* Automatically detects, installs, or uninstalls required libraries (`Pillow`, `colorama`).
+* [x] *Visual Interface:* Features a colorful and interactive Command Line Interface (CLI).
+* [x] *Non-Destructive:* Your original images remain untouched and safe.
+
+== 🚀 Getting Started
+
+=== Prerequisites
+You only need *Python 3.x* installed on your system.
+
+=== Installation
+Clone the repository and run the script:
+
+[source,bash]
+----
+git clone https://github.com/Rehmanalidevpro/Image2PDF-Pro-Automator.git
+cd Image2PDF-Pro-Automator
+python pdf_pro_automator.py
+----
+
+TIP: On the first run, the tool will ask for permission to install necessary libraries automatically.
+
+== 🛠 Usage Guide
+1. **Prepare Images:** Ensure your images are in a folder and named numerically (e.g., `1.jpg`, `2.png`).
+2. **Launch Tool:** Run `python pdf_pro_automator.py`.
+3. **Input Path:** Provide the full directory path when prompted.
+4. **Naming:** Enter your desired PDF filename.
+5. **Output:** Find your final PDF in the `PDF_Output_Folder` created inside your source directory.
+
+== ⚖️ License
+This project is licensed under the *MIT License*.
+
+== 🤝 Contact
+Developed by *Rehman Ali*. Feel free to reach out for suggestions or bug reports!
